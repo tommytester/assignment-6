@@ -20,7 +20,7 @@ This will generate your first slide, with the title, your name, and the date.
 
 ## Individual slides from text
 
-Each top level markdown header in the file will become a slide. 
+Each *top level* (i.e. one `#`) markdown header in the file will become a slide. 
 The text in the header will be included in the slide. 
 This is only a draft, though, so you can of course change this later. 
 
@@ -76,7 +76,7 @@ Make a small change and then add and commit it using git, just like we have been
 
 ```
 git add -v .
-git commit -a -m "I made a small change"
+git commit -a -m "I made a small change in the colors"
 git push
 ```
 
